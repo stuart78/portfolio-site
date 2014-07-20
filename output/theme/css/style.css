@@ -106,3 +106,132 @@ a:hover {
 	background-color:rgba(255,255,255,0.2);
 	border-radius: 2px;
 }
+
+#banner {
+	min-height: 40px;
+	background-color: #365880;
+	padding: 0;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+
+}
+
+#banner #menu {
+	display: block;
+	width: auto;
+}
+
+#banner h1 {
+	font-size: 14px;
+	display: block;
+	float: left;
+	line-height: 40px;
+	padding: 0px;
+	margin-right: 10px;
+}
+
+#banner ul {
+	display: block;
+}
+
+#banner ul li {
+	display: block;
+	float: left;
+	font-size: 14px;
+	line-height: 40px;
+
+}
+
+#banner a {
+	padding: 0px 4px;
+	min-width: 80px;
+	opacity: 1.0
+}
+
+#banner #menu {
+	margin: 0;
+	border-top: 0;
+	float: left
+
+}
+
+#page-content {
+	padding-top: 20px;
+	background-color: #fff;
+	color: #000;
+	padding: 100px;
+	line-height: 1.3em;
+	font-weight: 300;
+}
+
+#page-content h1 {
+	font-family: 'Raleway';
+	font-weight: 700;
+	font-style: normal;
+	font-size: 2em;
+	line-height: 1.5em;
+	text-transform: uppercase;
+}
+
+#page-content h2 {
+	font-family: 'Raleway';
+	font-weight: 700;
+	font-style: normal
+	font-size: 1.5em;
+	line-height: 1em;
+	padding-top: 1em;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    opacity: 0.6;
+
+}
+
+#page-content h3 {
+	font-family: 'Raleway';
+	font-weight: 600;
+	font-style: normal
+	font-size: 1.5em;
+	line-height: 1em;
+    text-transform: uppercase;
+
+}
+
+#page-content h4 {
+	font-family: 'Raleway';
+	font-weight: 600;
+	font-style: normal
+	font-size: 1.5em;
+	line-height: 1em;
+    opacity: 0.8;
+    padding-bottom: 10px;
+}
+
+
+#page-content p {
+	margin-bottom: 10px;
+}
+
+#page-content ul li {
+	list-style-type: circle; 
+	list-style-position: outside;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+/*Resume Asides */
+
+aside.resume_image  {
+	width: 40px;
+	height: 40px;
+	margin-left: -50px;
+	margin-bottom: -40px;
+	display: block;
+	opacity: 0.5;
+}
+
+.resume_image#sleepy_giant {
+	background-image: url("/theme/images/resume/sg_logo.svg");
+}
+

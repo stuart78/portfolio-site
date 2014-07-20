@@ -2,9 +2,9 @@
 {% block title %}{{ page.title }}{%endblock%}
 {% block content %}
 
-        <header id="banner" class="body">
+        <header id="banner" class="body" style="background-color: {{ page.primarycolor }}">
                 <h1><a href="{{ SITEURL }}/">{{ SITENAME }} <strong>{{ SITESUBTITLE }}</strong></a></h1>
-        </header><!-- /#banner -->
+
 
         <nav id="menu"><ul>
         {% for title, link in MENUITEMS %}
@@ -23,13 +23,14 @@
         {% endif %}
         </ul>
         </nav><!-- /#menu -->
+        </header><!-- /#banner -->
 
-    <h1>{{ page.title }}</h1>
     {% import 'translations.html' as translations with context %}
     {{ translations.translations_for(page) }}
-
-    {{ page.content }}
-
+	<section id="page-content" style="color: {{ page.primarycolor }}">
+	    <h1>{{ page.title }}</h1>
+		{{ page.content }}
+	</section>
 	{% if page.modified %}
 		<p>
 		Last updated: {{ page.locale_modified }}
