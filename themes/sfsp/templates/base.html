@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway:100,200,400,500,600,700|Vollkorn:700,700italic" />
         <link rel="stylesheet" href="/theme/pe-icon-7-stroke/css/helper.css" />
         <link rel="stylesheet" href="/theme/pe-icon-7-stroke/css/pe-icon-7-stroke.css" />
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
         <meta charset="utf-8" />
         {% if FEED_ALL_ATOM %}
         <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Full Atom Feed" />
@@ -36,8 +37,11 @@
         {% endblock head %}
 </head>
 
-<body id="index" class="home">
-
+		{% if page_name == 'index' %}
+			<body id="index" class="home">
+		{% else %}
+			<body id="other" class="home">		
+		{% endif %}
 
         {% block content %}
         {% endblock %}

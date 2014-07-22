@@ -51,7 +51,7 @@ table {
 
 /* Structure */
 
-body {
+body#index {
 	background-color: #1A3350;
 }
 
@@ -93,7 +93,7 @@ h1 {
 	font-size: 1.2em;
 }
 
-a {
+#menu a, #banner a {
 	color: #fff;
 	text-decoration: none;
 	padding: 8px;
@@ -101,10 +101,22 @@ a {
 	opacity: 0.8;
 }
 
-a:hover {
+#menu a:hover, #banner a:hover {
 	opacity: 0.9;
 	background-color:rgba(255,255,255,0.2);
 	border-radius: 2px;
+}
+
+#page-content a {
+	color: #79B435;
+	text-decoration: none;
+
+	border-radius: 2px;
+	padding: 4px 2px;
+}
+
+#page-content a:hover {
+	background-color: #E6FBCD;
 }
 
 #banner {
@@ -218,6 +230,10 @@ a:hover {
 	list-style-position: outside;
 	margin-left: 20px;
 	margin-bottom: 10px;
+}
+
+hr {
+    border: 1px solid #bbb;
 }
 
 /*Resume Asides */
