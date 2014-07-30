@@ -31,5 +31,7 @@ DEFAULT_PAGINATION = 10
 
 THEME = 'themes/sfsp'
 
+MD_EXTENSIONS = ['extra']
+
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
