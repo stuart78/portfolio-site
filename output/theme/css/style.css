@@ -286,6 +286,25 @@ ul {
 	font-weight: 100;
 }
 
+.portfolio-piece {
+	margin-top: 40px;
+	padding-top: 5px;
+	border-top: 1px solid #eee;
+}
+
+.port-sidebar {
+	display: block;
+	color: rgb(60, 103, 153);
+	width: 220px;
+	float: left;
+}
+
+.port-desc {
+	font-weight: 100;
+	line-height: 1.5em;
+		font-style: italic;
+}
+
 #page-content h5 {
 	font-weight: 500;
 	padding-bottom: 0px;
@@ -294,7 +313,7 @@ ul {
 	display: inline;
 }
 
-#page-content #Resume p {
+#page-content #Resume p{
 	margin-left: 240px;
 	line-height: 1.5em;
 }
@@ -305,14 +324,19 @@ ul {
 		}
 }
 
+.project_description {
+	margin-left: 240px;
+}
+
 #page-content p {
 	margin-bottom: 10px;
 }
 
 .container {
 	position: relative;
-	width: 100%;
+	width: 720px;
 	height: 100%;
+	margin-left: 240px;
 }
 
 .divider {
@@ -375,28 +399,15 @@ ul {
 	width: 100%;
 	padding: 5px;
 	border: 1px solid #fff;
-	opacity: 0.5;
+	opacity: 1.0;
 
 }
 
 #page-content img:hover {
-	border: 1px dashed #bbb;
-	opacity: 1.0;
-	border-radius: 2px;
-}
-
-
-#page-content img.resuMap {
-	width: auto;
-	padding: 0px;
-	border:none;
-	opacity:0.8;
-	
-}
-
-#page-content img.resuMap:hover {
-	border:none;
-	opacity: 1.0
+	border: 1px solid #E6FBCD;
+	border-radius: 8px;
+	opacity: 0.8;
+	border-radius: 4px;
 }
 
 #page-content ul li {
