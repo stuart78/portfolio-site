@@ -152,6 +152,7 @@ i {
 	position: fixed;
 	width: 100%;
 	z-index: 10;
+	opacity: 0.95;
 
 }
 
@@ -247,7 +248,7 @@ i {
 	display: inline-block;
 }
 
-#page-content #Resume h3 {
+#page-content #Resume h3, #page-content #Portfolio h3 {
 	border-bottom: 1px solid #eee;
 	font-size: 1.5em;
 	padding-bottom:2px;
@@ -270,7 +271,7 @@ i {
     padding-top: 20px;
 }
 
-#page-content #Resume h4 {
+#page-content #Resume h4, #page-content #Portfolio h4 {
 	width: 220px;
 	float: left;
 	font-size: 1em;
@@ -402,14 +403,15 @@ ul {
 
 }
 
-#Resume #focus {
+#Resume .focus {
 	margin-left: 240px;
 }
 
-#Resume #focus .focusGroup {
+#Resume .focus .focusGroup {
 	width: 220px;
 	margin-right: 20px;
 	float: left;
+	margin-bottom: 20px;
 }
 
 #Resume #skills {
@@ -434,4 +436,9 @@ aside.resume_image  {
 
 .resume_image#sleepy_giant {
 	background-image: url("/theme/images/resume/sg_logo.svg");
+}
+
+.resume_image#cgs {
+	background-image: url("/theme/images/resume/cgs-blue.png");
+	background-size: 40px;
 }

@@ -5,11 +5,13 @@ PrimaryDivName: portfolio
 
 ## Sleepy Giant Entertainment
 
-<h3 class="portfolio"> Project: OpsEngine</h3>
+### Project: OpsEngine
 #### Role: Product Owner
 
-<div class="project_description"><p>OpsEngine provides a turnkey solution for <i>account management</i>, <i>commerce</i> and <i>intelligence</i> allowing you to focus on game design and development.</p><p>OpsEngine measures performance, tests alternatives and identifies strategies for revenue growth.</p><p>OpsEngine scales to support all of your titles across all platforms, leveraging operational expense across the portfolio while centralizing learnings and marketing opportunities.</p></div>#### Artifacts
-<div class="divider"></div>
+<div class="project_description"><p>OpsEngine provides a turnkey solution for <i>account management</i>, <i>commerce</i> and <i>intelligence</i> allowing you to focus on game design and development.</p><p>OpsEngine measures performance, tests alternatives and identifies strategies for revenue growth.</p><p>OpsEngine scales to support all of your titles across all platforms, leveraging operational expense across the portfolio while centralizing learnings and marketing opportunities.</p></div>
+
+#### Artifacts
+
 <div class="container">
 	<a href="/images/portfolio/opsengine/integration_scenarios.png" target="_blank" class="img"><img src="/images/portfolio/opsengine/integration_scenarios.png"></a>
 	<div class="description">
