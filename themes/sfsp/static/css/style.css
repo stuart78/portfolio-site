@@ -94,11 +94,9 @@ h1 {
 }
 
 em {
-
-	background-color: rgba(53,88,127,0.1);
-		border-radius: 2px;
+	color: #888;
+	border-radius: 2px;
 	padding: 2px 2px;
-	
 }
 
 i {
@@ -198,9 +196,10 @@ i {
 	line-height: 1.3em;
 	font-weight: 300;
 	max-width: 960px;
-	min-width: 960px;
+
 	margin-left: auto;
 	margin-right: auto;
+	font-weight: 400;
 }
 
 #page-content h1 {
@@ -216,7 +215,7 @@ i {
 	font-family: 'Raleway';
 	font-weight: 100;
 	font-style: normal;
-	font-size: 1.5em;
+	font-size: 2em;
 	line-height: 1em;
 	padding-top: 1em;
     text-transform: uppercase;
@@ -232,7 +231,7 @@ i {
 	font-family: 'Raleway';
 	font-weight: 600;
 	font-style: normal
-	font-size: 1.5em;
+	font-size: 1.3em;
 	line-height: 1em;
     text-transform: uppercase;
     padding-top: 20px;
@@ -257,7 +256,7 @@ i {
 	font-weight: 700;
 	font-style: italic;
 	text-transform: none;
-	margin-top:40px;
+	margin-top:20px;
 }
 
 #page-content h4 {
@@ -272,15 +271,22 @@ i {
 }
 
 #page-content #Resume h4, #page-content #Portfolio h4 {
-	width: 220px;
-	float: left;
 	font-size: 1em;
 	padding-top: 0px;
+	display: block;
 }
 
 ul {
 	list-style: none;
 }
+
+#Resume ul {
+	list-style: disc;
+	list-style-position: outside;
+	margin-left: 60px;
+}
+
+
 
 .dates {
 	font-weight: 100;
@@ -314,9 +320,10 @@ ul {
 }
 
 #page-content #Resume p{
-	margin-left: 240px;
 	line-height: 1.5em;
 }
+
+
 
 @media (min-width: 800px) {
 	#page-content .project_description {
@@ -414,8 +421,8 @@ ul {
 
 }
 
-#Resume .focus {
-	margin-left: 240px;
+#Resume .focus ul {
+	list-style: none;
 }
 
 #Resume .focus .focusGroup {
